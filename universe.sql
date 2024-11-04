@@ -288,6 +288,7 @@ ALTER TABLE ONLY public.star ALTER COLUMN star_id SET DEFAULT nextval('public.st
 INSERT INTO public.description VALUES (1, 'Star', true, false, 'moon', 'spiral', 122.20, 423, 2);
 INSERT INTO public.description VALUES (2, 'Moon', true, true, 'spiral', NULL, 2840.39, 2839, 1);
 INSERT INTO public.description VALUES (3, 'Earth', false, false, NULL, NULL, 8273.92, 4728, 7);
+INSERT INTO public.description VALUES (4, 'ME', false, false, 'spiral', 'one', 1839.92, 847, 4);
 
 
 --
